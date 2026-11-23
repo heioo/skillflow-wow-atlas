@@ -1,5 +1,5 @@
 async function renderAtlas() {
-  const response = await fetch("assets/atlas.json", {cache: "no-cache"});
+  const response = await fetch("assets/atlas.json?v=" + encodeURIComponent(document.documentElement.dataset.release), {cache: "no-cache"});
   if (!response.ok) throw Error("HTTP " + response.status);
   const atlas = await response.json();
   document.querySelector("#edition").textContent = "客户端 " + atlas.build + " · 图鉴版本 " + atlas.edition;
