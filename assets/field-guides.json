@@ -1,0 +1,417 @@
+{
+  "sources": {
+    "original": "https://mp.weixin.qq.com/s/FoAFinrSHMNAYFQIPeBXNg",
+    "later": "https://news.17173.com/content/02142026/123349620.shtml"
+  },
+  "chapters": {
+    "40953": {
+      "reward": "加尼的垃圾堆",
+      "lead": "按地图收尾，再回头查轮换任务",
+      "steps": [
+        "先展开奥迪尔、达萨罗之战等团本条目，按手册核对难度；把需要同伴的项目集中安排。",
+        "在纳兹米尔、沃顿、斯托颂谷地分别清完当地小目标。遇到“狐人生活”或“天降正义”，先看对应的突袭或世界任务是否可用。"
+      ],
+      "source": "original"
+    },
+    "20501": {
+      "reward": "佐瓦尔的噬魂者",
+      "lead": "把盟约玩法和野外探索分开做",
+      "steps": [
+        "先查“暗影界爱好者”的缺项：灰烬王庭的宾客、忠诚试炼和憎恶缝合各有自己的进度。按缺项找 JAN-Z 对应的一集。",
+        "单独开一趟扎雷殁提斯。对照“扎雷字母表”核对宝藏、冒险家、初诞者密文和开悟者；只跑自己还缺的项目。"
+      ],
+      "source": "original"
+    },
+    "19458": {
+      "reward": "泰瓦恩",
+      "lead": "从任务线、声望和世界事件三路推进",
+      "steps": [
+        "先核对巨龙群岛任务线与地下城。缺声望时，展开“天啊，他们是同巢胞友”，分别检查黑龙、工匠联盟、冬裘等阵营进度。",
+        "去禁忌离岛前打开“偷尝禁果”，同一趟兼顾宝藏、卷轴和稀有。回到主岛后，按“穿越群岛”还缺的事件安排路线。"
+      ],
+      "source": "original"
+    },
+    "61451": {
+      "reward": "磨轮号Mk. 11型",
+      "lead": "把十项要求拆成地图行程",
+      "steps": [
+        "从“卡兹全家福”核对地图探索、魔符、剧情和土灵解锁。“心中有耀光”另看圣焰之耀名望，需要达到 10 级。",
+        "海妖岛和卡雷什分开跑。做“解离与保护”时把卡雷什探索、宝藏和悬赏列在一起；团本部分另核对尼鲁巴尔王宫、解放安德麦和法力熔炉。"
+      ],
+      "source": "later"
+    }
+  },
+  "links": [
+    {
+      "root": 40953,
+      "title": "起步与难点总览",
+      "url": "https://www.bilibili.com/video/BV1jpzXYjEjS/",
+      "credit": "疚风是我 · 视频",
+      "note": "先检查团本和组队项，再评估海底篡位者与麦卡完工的收集进度。",
+      "forIds": [
+        13638,
+        13541
+      ]
+    },
+    {
+      "root": 40953,
+      "title": "扬帆拜访的小动物",
+      "url": "https://www.bilibili.com/video/BV1bWzvYQE8y/",
+      "credit": "疚风是我 · 视频",
+      "note": "在对应地图选中清单里的小动物，用爱意表情逐只登记。",
+      "forIds": [
+        14730
+      ]
+    },
+    {
+      "root": 40953,
+      "title": "神灵赐福与神庙路线",
+      "url": "https://www.bilibili.com/video/BV1k9ieYhEF9/",
+      "credit": "疚风是我 · 视频",
+      "note": "先核对任务线是否解锁神像，再按片中顺序找祭坛与神庙。",
+      "forIds": []
+    },
+    {
+      "root": 40953,
+      "title": "加尼的垃圾堆与贡克之速",
+      "url": "https://www.bilibili.com/video/BV1dyiyY7EbG/",
+      "credit": "疚风是我 · 视频",
+      "note": "先完成垃圾堆互动的前置，再逐点为加尼办事；贡克之速是另一项计时挑战。",
+      "forIds": [
+        12482,
+        13038
+      ]
+    },
+    {
+      "root": 40953,
+      "title": "纳兹米尔的象形图画",
+      "url": "https://www.bilibili.com/video/BV1QZqnY5E2b/",
+      "credit": "疚风是我 · 视频",
+      "note": "分清“石上沙，血中画”的石板和“多吃蔬菜”的目标。视频逐段展示位置。",
+      "forIds": [
+        13024,
+        12588
+      ]
+    },
+    {
+      "root": 40953,
+      "title": "沃顿的木板与沿海目标",
+      "url": "https://www.bilibili.com/video/BV1R7qwYfENn/",
+      "credit": "疚风是我 · 视频",
+      "note": "摇晃的木板属于“沙丘骑手”。沿途可以分别核对泽姆兰之灾和沙海捕手。",
+      "forIds": [
+        13018,
+        13011,
+        13009
+      ]
+    },
+    {
+      "root": 40953,
+      "title": "斯托颂谷地的野餐与松露",
+      "url": "https://www.bilibili.com/video/BV13ZquY1EBH/",
+      "credit": "疚风是我 · 视频",
+      "note": "做“山地野餐曲”先备好午餐，再上山到野餐点使用。约 4 分 28 秒展示最后一步。",
+      "forIds": [
+        13046,
+        13045
+      ]
+    },
+    {
+      "root": 40953,
+      "title": "独家闺蜜与最危险的战利品",
+      "url": "https://www.bilibili.com/video/BV16wq1YfErZ/",
+      "credit": "疚风是我 · 视频",
+      "note": "两项使用不同的互动目标，先在成就面板分别跟踪，再对照视频切换路线。",
+      "forIds": [
+        13062,
+        13053
+      ]
+    },
+    {
+      "root": 40953,
+      "title": "狐人生活：先准备考古",
+      "url": "https://www.bilibili.com/video/BV14aq3Y3Enb/",
+      "credit": "疚风是我 · 视频",
+      "note": "作者在约 24 秒解释前置：先学考古，确认沃顿有挖掘场，再趁“狐人一日游”完成伪装挖掘。",
+      "forIds": [
+        13437
+      ]
+    },
+    {
+      "root": 40953,
+      "title": "天降正义：轰炸目标",
+      "url": "https://www.bilibili.com/video/BV1z3qmYhEns/",
+      "credit": "疚风是我 · 视频",
+      "note": "等提拉加德海峡出现“快打扫干净！”。约 19 秒起展示了要炸的场景物件，按成就面板核对命中。",
+      "forIds": [
+        13050
+      ]
+    },
+    {
+      "root": 40953,
+      "title": "提拉加德海峡的隐藏宝藏",
+      "url": "https://www.bilibili.com/video/BV1n4qqY6ERN/",
+      "credit": "疚风是我 · 视频",
+      "note": "这一集演示提拉加德海峡的拾取和互动路线；需要回头找地下室的收藏者可看约 1 分 49 秒。",
+      "forIds": []
+    },
+    {
+      "root": 40953,
+      "title": "德鲁斯瓦的收集路线",
+      "url": "https://www.bilibili.com/video/BV1itBjY3EZY/",
+      "credit": "疚风是我 · 视频",
+      "note": "作者在约 5 分 23 秒切换到受诅咒动物的目标，适合与其他德鲁斯瓦条目一起清。",
+      "forIds": []
+    },
+    {
+      "root": 40953,
+      "title": "加尼的垃圾堆：奖励实拍",
+      "url": "https://www.bilibili.com/video/BV1BZkNYoE2z/",
+      "credit": "疚风是我 · 视频",
+      "note": "查看变身坐骑和持武器的外观；展示录制于 11.0.7。",
+      "forIds": []
+    },
+    {
+      "root": 19458,
+      "title": "任务与副本",
+      "url": "https://mmbiz.qpic.cn/mmbiz_jpg/mT0icUhibltSNfoNXphaU8bgQQakve6QpndbtoLUuWpH5uPPrtptITeiaQ8XY66g8Y06OehsRC3yzUghbD6dPbTJA/640?wx_fmt=jpeg",
+      "credit": "孟主任呐 · 抖音扫码卡",
+      "note": "系列第 1 集，适合先核对任务线和副本缺项。",
+      "forIds": [
+        16585,
+        16339
+      ]
+    },
+    {
+      "root": 19458,
+      "title": "天啊，他们是同巢胞友",
+      "url": "https://mmbiz.qpic.cn/mmbiz_jpg/mT0icUhibltSNfoNXphaU8bgQQakve6QpntG5eZOmvrLnAnyCiajocT0NASvc69R3icCu7TNCheu9oLcKKtqAfku6w/640?wx_fmt=jpeg",
+      "credit": "孟主任呐 · 抖音扫码卡",
+      "note": "逐个核对阵营声望；黑曜血脉与忠于王子是不同目标。",
+      "forIds": [
+        19466
+      ]
+    },
+    {
+      "root": 19458,
+      "title": "偷尝禁果与禁忌离岛",
+      "url": "https://mmbiz.qpic.cn/mmbiz_jpg/mT0icUhibltSNfoNXphaU8bgQQakve6Qpn2VAL0Ig1QjQwSxJ7Sl3x7rt43On3icvkZexibgcuUGGaHLd0v89NuLhQ/640?wx_fmt=jpeg",
+      "credit": "孟主任呐 · 抖音扫码卡",
+      "note": "这一集集中在离岛，先看探索和宝藏，再看卷轴与稀有。",
+      "forIds": [
+        17543
+      ]
+    },
+    {
+      "root": 19458,
+      "title": "穿越群岛 · 上",
+      "url": "https://mmbiz.qpic.cn/mmbiz_jpg/mT0icUhibltSNfoNXphaU8bgQQakve6QpnXcTCIGxtp5zRwPyO3MnUhTm6AD1glFq0ktUUicd81xZKia1TJ6zExrRg/640?wx_fmt=jpeg",
+      "credit": "孟主任呐 · 抖音扫码卡",
+      "note": "世界事件专题上篇，配合游戏内“穿越群岛”清单查看。",
+      "forIds": [
+        19486
+      ]
+    },
+    {
+      "root": 19458,
+      "title": "穿越群岛 · 下",
+      "url": "https://mmbiz.qpic.cn/mmbiz_jpg/mT0icUhibltSNfoNXphaU8bgQQakve6QpnuGwkZfc7A4emAZXK3LKiazCCLWexNYqSYrVjY3bVroHVHPUG8fic1p0g/640?wx_fmt=jpeg",
+      "credit": "孟主任呐 · 抖音扫码卡",
+      "note": "同一专题的下篇，用于接续上篇核查剩余事件。",
+      "forIds": [
+        19486
+      ]
+    },
+    {
+      "root": 20501,
+      "title": "彼岸归来总览",
+      "url": "https://mmbiz.qpic.cn/mmbiz_jpg/mT0icUhibltSNfoNXphaU8bgQQakve6QpnEI78K8jteeTvFruYhfPS2icTGWvvAdMRR2CnGDfuxMtfk4Uek21ShnA/640?wx_fmt=jpeg",
+      "credit": "JAN-Z（魔说世界） · 抖音扫码卡",
+      "note": "先看整个版本成就需要哪些玩法，再挑自己的缺项。",
+      "forIds": []
+    },
+    {
+      "root": 20501,
+      "title": "热情好客",
+      "url": "https://mmbiz.qpic.cn/mmbiz_jpg/mT0icUhibltSNfoNXphaU8bgQQakve6QpnUMGAKWR4YicKGw4XGibag3V16NEYPNTwTokHd3dVnT9fdjPyjD5NGY1A/640?wx_fmt=jpeg",
+      "credit": "JAN-Z（魔说世界） · 抖音扫码卡",
+      "note": "核对灰烬王庭尚未招待的宾客。",
+      "forIds": [
+        14723
+      ]
+    },
+    {
+      "root": 20501,
+      "title": "玛拉斯缪赞与追求忠诚",
+      "url": "https://mmbiz.qpic.cn/mmbiz_jpg/mT0icUhibltSNfoNXphaU8bgQQakve6QpnUFgpGa2vuJq4O0Z8m9JWV1l9QibjDCAHBlv0JKqMn28R2Qa5e1bqU0g/640?wx_fmt=jpeg",
+      "credit": "JAN-Z（魔说世界） · 抖音扫码卡",
+      "note": "一个目标看声望，另一个看前八轮试炼，可分别核查。",
+      "forIds": [
+        14775,
+        14502
+      ]
+    },
+    {
+      "root": 20501,
+      "title": "扎雷字母表",
+      "url": "https://mmbiz.qpic.cn/mmbiz_jpg/mT0icUhibltSNfoNXphaU8bgQQakve6QpneZg7pRiaxVEaxw6MXuE8ic9QeCvHiaD3lvLibT1NWKc9412f8Yo3liaQsaQ/640?wx_fmt=jpeg",
+      "credit": "JAN-Z（魔说世界） · 抖音扫码卡",
+      "note": "在扎雷殁提斯集中处理探索、宝藏、冒险家和声望。",
+      "forIds": [
+        15336
+      ]
+    },
+    {
+      "root": 20501,
+      "title": "塔扎维什齿轮滑翔器",
+      "url": "https://mmbiz.qpic.cn/mmbiz_jpg/mT0icUhibltSNfoNXphaU8bgQQakve6QpnTUYJVyWYNsJnpc2xslEYwZXc6DFJIETibKl3FPJicDSibIK9oAw6zoJ6A/640?wx_fmt=jpeg",
+      "credit": "JAN-Z（魔说世界） · 抖音扫码卡",
+      "note": "作者单列的坐骑获取专题，可从扫码卡查看。",
+      "forIds": []
+    },
+    {
+      "root": 20501,
+      "title": "亡者消遣",
+      "url": "https://mmbiz.qpic.cn/mmbiz_jpg/mT0icUhibltSNfoNXphaU8bgQQakve6Qpn7w2RXQqXRbdDc29uyUTrom9rSkI5RulMicrnVAfKPe4bodtMATPChgA/640?wx_fmt=jpeg",
+      "credit": "JAN-Z（魔说世界） · 抖音扫码卡",
+      "note": "憎恶缝合专题，可在条目下逐项检查可憎的生活、衣柜大改造等四项。",
+      "forIds": [
+        14752
+      ]
+    },
+    {
+      "root": 19458,
+      "title": "苏醒的世界 · 全攻略",
+      "url": "https://nga.178.com/read.php?tid=39730432",
+      "credit": "NGA · 论坛原帖",
+      "note": "公众号推荐的文字攻略；论坛要求访客登录。",
+      "forIds": []
+    },
+    {
+      "root": 19458,
+      "title": "苏醒的世界 · 成就笔记",
+      "url": "https://nga.178.com/read.php?tid=42250235",
+      "credit": "NGA · 论坛原帖",
+      "note": "公众号推荐的文字攻略；论坛要求访客登录。",
+      "forIds": []
+    },
+    {
+      "root": 20501,
+      "title": "彼岸归来 · 新手攻略",
+      "url": "https://bbs.nga.cn/read.php?tid=33779796",
+      "credit": "NGA · 论坛原帖",
+      "note": "公众号推荐的文字攻略；论坛要求访客登录。",
+      "forIds": []
+    },
+    {
+      "root": 20501,
+      "title": "彼岸归来 · 攻略汇总",
+      "url": "https://nga.178.com/read.php?tid=42790436",
+      "credit": "NGA · 论坛原帖",
+      "note": "公众号推荐的文字攻略；论坛要求访客登录。",
+      "forIds": []
+    },
+    {
+      "root": 40953,
+      "title": "永别了，武装 · 文字汇总",
+      "url": "https://nga.178.com/read.php?tid=42320298",
+      "credit": "NGA · 论坛原帖",
+      "note": "公众号推荐的文字攻略；论坛要求访客登录。",
+      "forIds": []
+    },
+    {
+      "root": 61451,
+      "title": "地心寻魂：十项子成就路线",
+      "url": "https://www.bilibili.com/video/BV15k6RByEFv/",
+      "credit": "Temporal-Duo · 视频",
+      "note": "35 分钟的视频覆盖十个分支。约 19 分 57 秒进入海妖岛挖掘工程、稀有和宝藏的讲解。",
+      "forIds": [
+        40231,
+        40244,
+        40438,
+        41201,
+        41222,
+        41555,
+        41598,
+        41997,
+        60889,
+        41586
+      ],
+      "chapters": [
+        {
+          "time": 49,
+          "label": "三个团队副本",
+          "ids": [
+            40244,
+            41222,
+            41598
+          ]
+        },
+        {
+          "time": 57,
+          "label": "卡兹全家福",
+          "ids": [
+            41555
+          ]
+        },
+        {
+          "time": 199,
+          "label": "疑影重重",
+          "ids": [
+            41201
+          ]
+        },
+        {
+          "time": 1175,
+          "label": "海妖岛：屿你的回忆",
+          "ids": [
+            41201
+          ]
+        },
+        {
+          "time": 1242,
+          "label": "地心之战探路者",
+          "ids": [
+            40231
+          ]
+        },
+        {
+          "time": 1249,
+          "label": "心中有耀光",
+          "ids": [
+            41997
+          ]
+        },
+        {
+          "time": 1266,
+          "label": "地下堡行者的荣耀",
+          "ids": [
+            40438
+          ]
+        },
+        {
+          "time": 1600,
+          "label": "地精模式全开",
+          "ids": [
+            41586
+          ]
+        },
+        {
+          "time": 1796,
+          "label": "解离与保护",
+          "ids": [
+            60889
+          ]
+        }
+      ]
+    },
+    {
+      "root": 19458,
+      "title": "十四项子成就图文攻略",
+      "url": "https://news.17173.com/content/02142026/123349620.shtml",
+      "credit": "Sora · 后续推荐",
+      "note": "后续汇总推荐的图文攻略，链接打开 17173 留存的推荐文章。",
+      "forIds": []
+    }
+  ]
+}

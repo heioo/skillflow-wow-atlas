@@ -1,26 +1,65 @@
-:root{color-scheme:light;--ink:#232b25;--muted:#526154;--line:#a6aa95;--red:#11675c;--paper:#f4efdf}
+:root{color-scheme:dark;--base:#101614;--panel:#1a211e;--paper:#f0e5c8;--muted:#bdbba9;--brass:#977d4e;--line:#42473a;--jade:#bdd78a;--serif:"Songti SC","STSong","Noto Serif CJK SC",serif}
 *{box-sizing:border-box}
-body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 "Source Sans 3",system-ui,sans-serif}
-main{max-width:980px;margin:auto;padding:24px clamp(20px,6vw,72px) 48px}
-header h1{color:var(--red)}
-header{padding:32px 0 22px;border-top:7px solid var(--red);border-bottom:1px solid var(--ink)}
-small{font:600 12px/1.3 "Courier New",monospace;letter-spacing:.18em;color:var(--red)}
-h1{margin:6px 0 12px;font:700 clamp(38px,7vw,72px)/1.2 "Songti SC","Noto Serif CJK SC",serif;letter-spacing:-.03em}
-header p{color:var(--muted);margin:0;font-size:14px}
-h2{font:600 23px/1.4 "Songti SC",serif;margin:30px 0 12px}
-.cards{border-top:2px solid var(--ink)}
-.achievement>summary{padding:3px 0}
-.achievement>summary::marker{color:var(--red)}
-.achievement>summary span{display:inline-block;margin-left:12px;color:var(--muted);font-size:13px;font-weight:400}
-.achievement-body{margin:8px 0 8px 9px;padding-left:15px;border-left:2px solid var(--line)}
-.achievement-body p{margin:6px 0}
-.achievement-body .reward{color:var(--red);font-weight:600}
-.achievement-body a{font-size:14px}
-.achievement-body h3{margin:18px 0 6px;font-size:15px}
-.achievement-body details{padding:6px 0}
-details{border-top:1px solid var(--line);padding:12px 0}details:last-child{border-bottom:1px solid var(--line)}
-summary{cursor:pointer;font-weight:600}summary:focus-visible,a:focus-visible{outline:2px solid var(--red);outline-offset:3px}
-ol{columns:2;padding-left:28px;color:var(--muted)}li{padding:3px}
-footer{margin-top:32px}a{color:var(--red)}
-@media(max-width:580px){.achievement>summary span{display:block;margin-left:19px}.achievement-body{margin-left:3px;padding-left:8px}ol{columns:1}}
-
+html{scroll-padding-top:12px}
+body{margin:0;background:radial-gradient(ellipse at top,#30372c 0,#141b18 54%,#101512 100%);color:var(--paper);font:16px/1.65 "Source Sans 3",system-ui,sans-serif}
+main,.mast nav{max-width:1080px;margin:auto}
+a{color:var(--jade);text-underline-offset:4px}
+a:hover{color:#e5f5c2}
+a:focus-visible,summary:focus-visible{outline:2px solid #d4ed96;outline-offset:3px}
+.mast{border-bottom:1px solid #665a3c;background:#181b17}
+.mast nav{display:flex;align-items:center;gap:24px;padding:13px clamp(16px,4vw,44px);font-size:14px}
+.mast a{text-decoration:none;color:#d7caac}
+.mast .brand{margin-right:auto;color:#f0dfb6;font:700 17px var(--serif)}
+.portal{position:relative;isolation:isolate;min-height:clamp(230px,29vw,335px);display:flex;align-items:center;background:#232923 url("assets/dark-portal.webp") center center/cover no-repeat;border-bottom:2px solid #a28a54}
+.portal:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(8,15,12,.85),rgba(14,18,18,.45) 42%,transparent 75%)}
+.portal-copy{padding:24px clamp(20px,6vw,65px);text-shadow:0 2px 12px #050606}
+.portal-copy>p:first-child{margin:0;color:#d5c191;font:600 12px/1.5 Georgia,serif;letter-spacing:.19em}
+h1,h2,h3{font-family:var(--serif)}
+h1{margin:10px 0 6px;color:#faedca;font-size:clamp(38px,6vw,70px);line-height:1.12;letter-spacing:-.04em}
+.intro{margin:0;color:#e4d7b6}
+.ledger{padding:18px clamp(14px,4vw,44px) 36px}
+.section-title{display:flex;align-items:baseline;justify-content:space-between;gap:14px;margin:20px 0 12px}
+h2{margin:0;font-size:clamp(23px,3.2vw,30px);line-height:1.35}
+#edition{font-size:12px;color:var(--muted)}
+.chapter{background:var(--panel);border:1px solid #51503c;margin:10px 0;box-shadow:0 2px 8px #0003}
+summary{cursor:pointer}
+.chapter>summary{display:grid;grid-template-columns:clamp(125px,22vw,220px) 1fr 38px;align-items:center;gap:clamp(12px,3vw,32px);min-height:110px;list-style:none}
+.chapter>summary::-webkit-details-marker{display:none}
+.chapter>summary:hover,.chapter[open]>summary{background:#283027}
+.region{width:100%;height:clamp(110px,13vw,138px);object-fit:cover;border-right:1px solid #756546}
+.label{display:grid;gap:3px}
+.label strong{font:700 clamp(21px,3vw,32px)/1.25 var(--serif);color:#f4e5bb}
+.era,.credit{font-size:13px;color:#c8b68d}
+.mount-reward{display:flex;align-items:center;gap:7px;color:#c5d6ab;font-size:14px}
+.mount-reward img{width:22px;height:22px;border:1px solid var(--brass);border-radius:3px}
+.arrow{font-size:18px;justify-self:start;color:#b6c78c}
+.chapter[open]>summary .arrow{transform:rotate(90deg)}
+.achievement-body{min-width:0;overflow-wrap:anywhere}
+.chapter>.achievement-body{padding:clamp(14px,3vw,32px);border-top:1px solid var(--line)}
+.achievement-body>p{margin:0 0 6px}
+.reward{color:#e6c580}
+.achievement-body>a,.route>a{font-size:14px}
+.achievement-body h3{font-size:19px;margin:21px 0 8px}
+.route{margin:16px 0;padding:14px 18px;border-left:3px solid #859957;background:#242d24}
+.route h3:first-child{margin:0}
+.route ol{padding-left:22px;margin:8px 0}
+.route li{margin:6px 0}
+.shelf{margin-top:12px;border-top:1px solid #4d5943}
+.shelf summary{padding:9px 0;color:#e1d9b2}
+.readings{list-style:none;padding:0;margin:0}
+.readings li+li{border-top:1px solid #414b3d;padding-top:9px}
+.readings a{font-weight:600}
+.credit{display:block}
+.readings p{margin:2px 0 9px;color:#e0decf;font-size:14px}
+.achievement-body>.achievement{border-top:1px solid var(--line)}
+.achievement-body>.achievement>summary,#raids summary{padding:8px 0}
+.achievement-body>.achievement>summary::marker,#raids summary::marker,.shelf summary::marker{color:var(--jade)}
+.achievement-body>.achievement>.achievement-body{margin:0 0 10px 5px;padding:6px 0 6px 12px;border-left:2px solid var(--line)}
+#instances{margin-top:30px}
+#raids{border-block:1px solid var(--line)}
+#raids details+details{border-top:1px solid var(--line)}
+#raids ol{columns:2}
+footer{display:flex;justify-content:space-between;margin-top:28px;font-size:14px}
+@media(max-width:580px){.mast nav{gap:15px}.mast .brand{font-size:15px}.portal{min-height:235px;background-position:63% center}.portal-copy{align-self:end;padding-bottom:20px}.portal:before{background:linear-gradient(0deg,#111713dc,transparent 86%)}.section-title{display:block}#edition{display:block;margin-top:3px}.chapter>summary{grid-template-columns:86px 1fr 16px;gap:9px}.region{height:115px}.era,.credit{font-size:12px}.mount-reward{font-size:12px}.mount-reward img{width:18px;height:18px}.chapter>.achievement-body{padding:14px 10px}.route{padding:10px}.achievement-body>.achievement>.achievement-body{padding-left:7px}#raids ol{columns:1}}
+.time-links{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 12px}
+.time-links a{padding:3px 8px;border:1px solid #5a614d;font-size:13px;text-decoration:none}
