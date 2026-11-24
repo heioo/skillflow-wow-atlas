@@ -1,26 +1,30 @@
 {
   "build": "12.1.5.70961",
-  "edition": "AZ-C88155E2",
+  "edition": "AZ-6E609356",
   "achievements": [
     {
       "id": 40953,
       "name": "永别了，武装",
-      "children": 18
+      "children": 18,
+      "expansion": "争霸艾泽拉斯"
     },
     {
       "id": 20501,
       "name": "彼岸归来",
-      "children": 16
+      "children": 16,
+      "expansion": "暗影国度"
     },
     {
       "id": 19458,
       "name": "苏醒的世界",
-      "children": 14
+      "children": 14,
+      "expansion": "巨龙时代"
     },
     {
       "id": 61451,
       "name": "地心寻魂",
-      "children": 10
+      "children": 10,
+      "expansion": "地心之战"
     }
   ],
   "raids": [
@@ -56,5 +60,6 @@
         "安苏雷克女王"
       ]
     }
-  ]
+  ],
+  "achievementDetails": "assets/achievement-details.json"
 }
