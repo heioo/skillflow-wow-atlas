@@ -22,14 +22,27 @@ export function externalLink(parent, title, url) {
   return link;
 }
 
-export function achievementCard(parent, id, root, records, routes) {
+export function achievementCard(parent, id, root, records, routes, images) {
   const record = records[id];
   const link = append(parent, "a", "", "child-card");
   link.href = "achievement.html?id=" + id + "&root=" + root;
-  append(link, "strong", record.name);
-  append(link, "span", record.description, "card-description");
-  if (routes[id]?.area) append(link, "span", routes[id].area, "card-meta");
-  append(link, "span", routes[id] ? "查看攻略 →" : "查看完成条件 →", "card-action");
+  const illustration = images[id];
+  if (illustration) {
+    const visual = append(link, "div", "", "card-visual " + illustration.kind);
+    const image = append(visual, "img");
+    image.src = illustration.src;
+    image.alt = illustration.subject;
+    image.loading = "lazy";
+    image.decoding = "async";
+    image.width = illustration.width;
+    image.height = illustration.height;
+    if (illustration.fit === "contain") visual.classList.add("uncropped");
+  }
+  const copy = append(link, "div", "", "card-copy");
+  append(copy, "strong", record.name);
+  append(copy, "span", record.description, "card-description");
+  if (routes[id]?.area) append(copy, "span", routes[id].area, "card-meta");
+  append(copy, "span", routes[id] ? "查看攻略 →" : "查看完成条件 →", "card-action");
   return link;
 }
 

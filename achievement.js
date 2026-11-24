@@ -1,4 +1,4 @@
-import {readData, append, externalLink, achievementCard, renderReading} from "./shared.js?v=outland-2";
+import {readData, append, externalLink, achievementCard, renderReading} from "./shared.js?v=outland-3";
 
 function descendantIds(id, records, found = new Set()) {
   if (found.has(id)) return found;
@@ -34,7 +34,7 @@ function resourcesFor(id, root, records, routes, guides) {
   return resources;
 }
 
-function renderRequirements(parent, tree, root, records, routes, depth = 0) {
+function renderRequirements(parent, tree, root, records, routes, images, depth = 0) {
   if (!tree?.items) return;
   if (depth > 0 && tree.label) append(parent, "h3", tree.label, "requirement-label");
   if (tree.choose) {
@@ -44,9 +44,9 @@ function renderRequirements(parent, tree, root, records, routes, depth = 0) {
   const cards = append(list, "div", "", "child-grid");
   for (const item of tree.items) {
     if (item.achievement) {
-      achievementCard(cards, item.achievement, root, records, routes);
+      achievementCard(cards, item.achievement, root, records, routes, images);
     } else if (item.items) {
-      renderRequirements(list, item, root, records, routes, depth + 1);
+      renderRequirements(list, item, root, records, routes, images, depth + 1);
     } else if (item.label) {
       append(list, "p", item.label, "requirement-item");
     }
@@ -57,12 +57,13 @@ function renderRequirements(parent, tree, root, records, routes, depth = 0) {
 async function renderAchievement() {
   const params = new URLSearchParams(location.search);
   const id = Number(params.get("id"));
-  const [atlas, records, routes, guides, requirements] = await Promise.all([
+  const [atlas, records, routes, guides, requirements, images] = await Promise.all([
     readData("assets/atlas.json"),
     readData("assets/achievement-details.json"),
     readData("assets/child-guides.json"),
     readData("assets/field-guides.json"),
-    readData("assets/achievement-requirements.json")
+    readData("assets/achievement-requirements.json"),
+    readData("assets/card-images.json")
   ]);
   const record = records[id];
   if (!record) throw Error("没有找到这项成就，请返回成就目录。");
@@ -101,7 +102,7 @@ async function renderAchievement() {
   const criteria = append(body, "section", "", "completion");
   append(criteria, "h2", "完成清单");
   if (requirements[id]) {
-    renderRequirements(criteria, requirements[id], root.id, records, routes);
+    renderRequirements(criteria, requirements[id], root.id, records, routes, images);
   } else {
     append(criteria, "p", record.description);
   }
@@ -113,6 +114,10 @@ async function renderAchievement() {
   const client = append(sources, "p", "完成清单按客户端 " + atlas.build + " · zhCN 收录。");
   externalLink(client, "客户端数据", "https://wago.tools/db2/Achievement?build=" + atlas.build);
   externalLink(sources, "在 Wowhead 核对当前成就", "https://www.wowhead.com/cn/achievement=" + id);
+  if (images[id]) {
+    const credit = append(sources, "p", images[id].subject + " · ");
+    externalLink(credit, "卡片配图来源", images[id].sourcePage);
+  }
   const footer = append(body, "footer");
   const back = append(footer, "a", "← 返回" + root.name);
   back.href = rootLink;

@@ -1,4 +1,4 @@
-import {readData, append, externalLink, achievementCard, renderReading} from "./shared.js?v=outland-2";
+import {readData, append, externalLink, achievementCard, renderReading} from "./shared.js?v=outland-3";
 
 function renderRoute(body, chapter, resources, source) {
   const section = append(body, "section", "", "route");
@@ -12,10 +12,11 @@ function renderRoute(body, chapter, resources, source) {
 }
 
 async function renderAtlas() {
-  const [atlas, guides, routes] = await Promise.all([
+  const [atlas, guides, routes, images] = await Promise.all([
     readData("assets/atlas.json"),
     readData("assets/field-guides.json"),
-    readData("assets/child-guides.json")
+    readData("assets/child-guides.json"),
+    readData("assets/card-images.json")
   ]);
   const records = await readData(atlas.achievementDetails);
   document.querySelector("#edition").textContent = "客户端 " + atlas.build + " · " + atlas.edition;
@@ -54,7 +55,7 @@ async function renderAtlas() {
       renderRoute(body, chapter, guides.links.filter(link => link.root === item.id), guides.sources[chapter.source]);
       append(body, "h3", "直属子成就（" + record.children.length + "）");
       const cards = append(body, "div", "", "child-grid");
-      for (const child of record.children) achievementCard(cards, child, item.id, records, routes);
+      for (const child of record.children) achievementCard(cards, child, item.id, records, routes, images);
     });
   }
 
