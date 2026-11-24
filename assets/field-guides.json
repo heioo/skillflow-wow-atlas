@@ -404,14 +404,510 @@
           ]
         }
       ]
-    },
-    {
-      "root": 19458,
-      "title": "十四项子成就图文攻略",
-      "url": "https://news.17173.com/content/02142026/123349620.shtml",
-      "credit": "Sora · 后续推荐",
-      "note": "后续汇总推荐的图文攻略，链接打开 17173 留存的推荐文章。",
-      "forIds": []
     }
-  ]
+  ],
+  "achievementLinks": {
+    "14730": [
+      {
+        "title": "扬帆拜访的小动物",
+        "url": "https://www.bilibili.com/video/BV1bWzvYQE8y/",
+        "credit": "疚风是我 · 视频",
+        "note": "在对应地图选中清单里的小动物，用爱意表情逐只登记。"
+      }
+    ],
+    "13437": [
+      {
+        "title": "狐人生活：先准备考古",
+        "url": "https://www.bilibili.com/video/BV14aq3Y3Enb/",
+        "credit": "疚风是我 · 视频",
+        "note": "作者在约 24 秒解释前置：先学考古，确认沃顿有挖掘场，再趁“狐人一日游”完成伪装挖掘。"
+      }
+    ],
+    "13050": [
+      {
+        "title": "天降正义：轰炸目标",
+        "url": "https://www.bilibili.com/video/BV1z3qmYhEns/",
+        "credit": "疚风是我 · 视频",
+        "note": "等提拉加德海峡出现“快打扫干净！”。约 19 秒起展示了要炸的场景物件，按成就面板核对命中。"
+      }
+    ],
+    "19466": [
+      {
+        "title": "天啊，他们是同巢胞友",
+        "url": "https://mmbiz.qpic.cn/mmbiz_jpg/mT0icUhibltSNfoNXphaU8bgQQakve6QpntG5eZOmvrLnAnyCiajocT0NASvc69R3icCu7TNCheu9oLcKKtqAfku6w/640?wx_fmt=jpeg",
+        "credit": "孟主任呐 · 抖音扫码卡",
+        "note": "逐个核对阵营声望；黑曜血脉与忠于王子是不同目标。"
+      }
+    ],
+    "17543": [
+      {
+        "title": "偷尝禁果与禁忌离岛",
+        "url": "https://mmbiz.qpic.cn/mmbiz_jpg/mT0icUhibltSNfoNXphaU8bgQQakve6Qpn2VAL0Ig1QjQwSxJ7Sl3x7rt43On3icvkZexibgcuUGGaHLd0v89NuLhQ/640?wx_fmt=jpeg",
+        "credit": "孟主任呐 · 抖音扫码卡",
+        "note": "这一集集中在离岛，先看探索和宝藏，再看卷轴与稀有。"
+      }
+    ],
+    "19486": [
+      {
+        "title": "穿越群岛 · 上",
+        "url": "https://mmbiz.qpic.cn/mmbiz_jpg/mT0icUhibltSNfoNXphaU8bgQQakve6QpnXcTCIGxtp5zRwPyO3MnUhTm6AD1glFq0ktUUicd81xZKia1TJ6zExrRg/640?wx_fmt=jpeg",
+        "credit": "孟主任呐 · 抖音扫码卡",
+        "note": "世界事件专题上篇，配合游戏内“穿越群岛”清单查看。"
+      },
+      {
+        "title": "穿越群岛 · 下",
+        "url": "https://mmbiz.qpic.cn/mmbiz_jpg/mT0icUhibltSNfoNXphaU8bgQQakve6QpnuGwkZfc7A4emAZXK3LKiazCCLWexNYqSYrVjY3bVroHVHPUG8fic1p0g/640?wx_fmt=jpeg",
+        "credit": "孟主任呐 · 抖音扫码卡",
+        "note": "同一专题的下篇，用于接续上篇核查剩余事件。"
+      }
+    ],
+    "14723": [
+      {
+        "title": "热情好客",
+        "url": "https://mmbiz.qpic.cn/mmbiz_jpg/mT0icUhibltSNfoNXphaU8bgQQakve6QpnUMGAKWR4YicKGw4XGibag3V16NEYPNTwTokHd3dVnT9fdjPyjD5NGY1A/640?wx_fmt=jpeg",
+        "credit": "JAN-Z（魔说世界） · 抖音扫码卡",
+        "note": "核对灰烬王庭尚未招待的宾客。"
+      }
+    ],
+    "15336": [
+      {
+        "title": "扎雷字母表",
+        "url": "https://mmbiz.qpic.cn/mmbiz_jpg/mT0icUhibltSNfoNXphaU8bgQQakve6QpneZg7pRiaxVEaxw6MXuE8ic9QeCvHiaD3lvLibT1NWKc9412f8Yo3liaQsaQ/640?wx_fmt=jpeg",
+        "credit": "JAN-Z（魔说世界） · 抖音扫码卡",
+        "note": "在扎雷殁提斯集中处理探索、宝藏、冒险家和声望。"
+      }
+    ],
+    "14752": [
+      {
+        "title": "亡者消遣",
+        "url": "https://mmbiz.qpic.cn/mmbiz_jpg/mT0icUhibltSNfoNXphaU8bgQQakve6Qpn7w2RXQqXRbdDc29uyUTrom9rSkI5RulMicrnVAfKPe4bodtMATPChgA/640?wx_fmt=jpeg",
+        "credit": "JAN-Z（魔说世界） · 抖音扫码卡",
+        "note": "憎恶缝合专题，可在条目下逐项检查可憎的生活、衣柜大改造等四项。"
+      }
+    ],
+    "12482": [
+      {
+        "title": "巫术神灵 · 0:06–6:09",
+        "url": "https://www.bilibili.com/video/BV1dyiyY7EbG/?t=6",
+        "credit": "疚风是我 · 对应视频分段",
+        "note": "定位到0:06，本项讲解到6:09结束。"
+      }
+    ],
+    "13038": [
+      {
+        "title": "拉普达雷骑士 · 6:09–6:42",
+        "url": "https://www.bilibili.com/video/BV1dyiyY7EbG/?t=369",
+        "credit": "疚风是我 · 对应视频分段",
+        "note": "定位到6:09，本项讲解到6:42结束。"
+      }
+    ],
+    "13024": [
+      {
+        "title": "石上沙，血中画 · 0:42–2:01",
+        "url": "https://www.bilibili.com/video/BV1QZqnY5E2b/?t=42",
+        "credit": "疚风是我 · 对应视频分段",
+        "note": "定位到0:42，本项讲解到2:01结束。"
+      }
+    ],
+    "12588": [
+      {
+        "title": "多吃蔬菜 · 2:01–4:48",
+        "url": "https://www.bilibili.com/video/BV1QZqnY5E2b/?t=121",
+        "credit": "疚风是我 · 对应视频分段",
+        "note": "定位到2:01，本项讲解到4:48结束。"
+      }
+    ],
+    "13028": [
+      {
+        "title": "思乡心切 · 4:48–5:17",
+        "url": "https://www.bilibili.com/video/BV1QZqnY5E2b/?t=288",
+        "credit": "疚风是我 · 对应视频分段",
+        "note": "定位到4:48，本项讲解到5:17结束。"
+      }
+    ],
+    "13018": [
+      {
+        "title": "沙丘骑手 · 1:36–1:55",
+        "url": "https://www.bilibili.com/video/BV1R7qwYfENn/?t=96",
+        "credit": "疚风是我 · 对应视频分段",
+        "note": "定位到1:36，本项讲解到1:55结束。"
+      }
+    ],
+    "13011": [
+      {
+        "title": "泽姆兰之灾 · 1:55–4:06",
+        "url": "https://www.bilibili.com/video/BV1R7qwYfENn/?t=115",
+        "credit": "疚风是我 · 对应视频分段",
+        "note": "定位到1:55，本项讲解到4:06结束。"
+      }
+    ],
+    "13009": [
+      {
+        "title": "沙海捕手 · 4:06–5:55",
+        "url": "https://www.bilibili.com/video/BV1R7qwYfENn/?t=246",
+        "credit": "疚风是我 · 对应视频分段",
+        "note": "定位到4:06，本项讲解到5:55结束。"
+      }
+    ],
+    "13046": [
+      {
+        "title": "山地野餐曲 · 3:37–4:42",
+        "url": "https://www.bilibili.com/video/BV13ZquY1EBH/?t=217",
+        "credit": "疚风是我 · 对应视频分段",
+        "note": "定位到3:37，本项讲解到4:42结束。"
+      }
+    ],
+    "13045": [
+      {
+        "title": "松露例餐 · 4:55–7:58",
+        "url": "https://www.bilibili.com/video/BV13ZquY1EBH/?t=295",
+        "credit": "疚风是我 · 对应视频分段",
+        "note": "定位到4:55，本项讲解到7:58结束。"
+      }
+    ],
+    "13062": [
+      {
+        "title": "独家闺蜜 · 0:08–3:06",
+        "url": "https://www.bilibili.com/video/BV16wq1YfErZ/?t=8",
+        "credit": "疚风是我 · 对应视频分段",
+        "note": "定位到0:08，本项讲解到3:06结束。"
+      }
+    ],
+    "13053": [
+      {
+        "title": "最危险的战利品 · 3:06–3:30",
+        "url": "https://www.bilibili.com/video/BV16wq1YfErZ/?t=186",
+        "credit": "疚风是我 · 对应视频分段",
+        "note": "定位到3:06，本项讲解到3:30结束。"
+      }
+    ],
+    "41555": [
+      {
+        "title": "卡兹全家福 · 0:57–3:19",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=57",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到0:57，本项讲解到3:19结束。"
+      }
+    ],
+    "40430": [
+      {
+        "title": "卡兹阿加飞行管理员 · 1:01–1:06",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=61",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到1:01，本项讲解到1:06结束。"
+      }
+    ],
+    "40702": [
+      {
+        "title": "卡兹阿加魔符猎手 · 1:06–1:15",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=66",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到1:06，本项讲解到1:15结束。"
+      }
+    ],
+    "20596": [
+      {
+        "title": "卡兹阿加的博学者 · 1:15–1:22",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=75",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到1:15，本项讲解到1:22结束。"
+      }
+    ],
+    "40762": [
+      {
+        "title": "卡兹阿加剧情猎人 · 1:22–3:00",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=82",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到1:22，本项讲解到3:00结束。"
+      }
+    ],
+    "40307": [
+      {
+        "title": "同盟种族：土灵 · 3:04–3:19",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=184",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到3:04，本项讲解到3:19结束。"
+      }
+    ],
+    "41201": [
+      {
+        "title": "疑影重重 · 3:19–20:42",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=199",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到3:19，本项讲解到20:42结束。"
+      }
+    ],
+    "41186": [
+      {
+        "title": "金石之盟 · 3:21–6:50",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=201",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到3:21，本项讲解到6:50结束。"
+      }
+    ],
+    "41187": [
+      {
+        "title": "与主机同心 · 6:50–9:35",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=410",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到6:50，本项讲解到9:35结束。"
+      }
+    ],
+    "41188": [
+      {
+        "title": "水晶年代录 · 9:35–15:22",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=575",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到9:35，本项讲解到15:22结束。"
+      }
+    ],
+    "41189": [
+      {
+        "title": "艾基随之转动 · 15:22–19:35",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=922",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到15:22，本项讲解到19:35结束。"
+      }
+    ],
+    "41133": [
+      {
+        "title": "屿你的回忆 · 19:35–20:42",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1175",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到19:35，本项讲解到20:42结束。"
+      }
+    ],
+    "41045": [
+      {
+        "title": "奥秘之歌 · 19:40–19:46",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1180",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到19:40，本项讲解到19:46结束。"
+      }
+    ],
+    "41042": [
+      {
+        "title": "海妖莫语！ · 19:46–19:57",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1186",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到19:46，本项讲解到19:57结束。"
+      }
+    ],
+    "41043": [
+      {
+        "title": "挖掘工程 · 19:57–20:05",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1197",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到19:57，本项讲解到20:05结束。"
+      }
+    ],
+    "41046": [
+      {
+        "title": "海妖岛大扫除 · 20:05–20:12",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1205",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到20:05，本项讲解到20:12结束。"
+      }
+    ],
+    "41131": [
+      {
+        "title": "风暴的宝藏 · 20:12–20:25",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1212",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到20:12，本项讲解到20:25结束。"
+      }
+    ],
+    "41050": [
+      {
+        "title": "黄水晶的合声 · 20:25–20:42",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1225",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到20:25，本项讲解到20:42结束。"
+      }
+    ],
+    "40231": [
+      {
+        "title": "地心之战探路者 · 20:42–20:49",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1242",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到20:42，本项讲解到20:49结束。"
+      }
+    ],
+    "41997": [
+      {
+        "title": "心中有耀光 · 20:49–21:06",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1249",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到20:49，本项讲解到21:06结束。"
+      }
+    ],
+    "40438": [
+      {
+        "title": "地心之战地下堡行者的荣耀 · 21:06–26:40",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1266",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到21:06，本项讲解到26:40结束。"
+      }
+    ],
+    "40537": [
+      {
+        "title": "地下堡博学者: 地心之战 · 21:10–21:19",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1270",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到21:10，本项讲解到21:19结束。"
+      }
+    ],
+    "40445": [
+      {
+        "title": "孢子大扫除 · 21:19–21:26",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1279",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到21:19，本项讲解到21:26结束。"
+      }
+    ],
+    "40453": [
+      {
+        "title": "蜘蛛感应 · 21:26–21:35",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1286",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到21:26，本项讲解到21:35结束。"
+      }
+    ],
+    "40454": [
+      {
+        "title": "白昼风暴 · 21:35–21:43",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1295",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到21:35，本项讲解到21:43结束。"
+      }
+    ],
+    "40538": [
+      {
+        "title": "布莱恩的成长 · 21:43–21:47",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1303",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到21:43，本项讲解到21:47结束。"
+      }
+    ],
+    "40506": [
+      {
+        "title": "地心之战：寻宝无遗 · 21:47–26:40",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1307",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到21:47，本项讲解到26:40结束。"
+      }
+    ],
+    "41586": [
+      {
+        "title": "地精模式全开 · 26:40–29:56",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1600",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到26:40，本项讲解到29:56结束。"
+      }
+    ],
+    "41217": [
+      {
+        "title": "安德麦宝藏 · 26:47–28:01",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1607",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到26:47，本项讲解到28:01结束。"
+      }
+    ],
+    "40948": [
+      {
+        "title": "十有八九为物权 · 28:01–28:24",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1681",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到28:01，本项讲解到28:24结束。"
+      }
+    ],
+    "41588": [
+      {
+        "title": "字里行间 · 28:24–29:21",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1704",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到28:24，本项讲解到29:21结束。"
+      }
+    ],
+    "41589": [
+      {
+        "title": "从小事做起 · 29:21–29:28",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1761",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到29:21，本项讲解到29:28结束。"
+      }
+    ],
+    "41708": [
+      {
+        "title": "咱们是朋友啦 · 29:28–29:56",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1768",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到29:28，本项讲解到29:56结束。"
+      }
+    ],
+    "60889": [
+      {
+        "title": "解离与保护 · 29:56–35:24",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1796",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到29:56，本项讲解到35:24结束。"
+      }
+    ],
+    "42742": [
+      {
+        "title": "雷什的力量 · 30:00–30:26",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1800",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到30:00，本项讲解到30:26结束。"
+      }
+    ],
+    "42761": [
+      {
+        "title": "破碎世界的残骸 · 30:26–31:03",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1826",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到30:26，本项讲解到31:03结束。"
+      }
+    ],
+    "42741": [
+      {
+        "title": "卡雷什的宝藏 · 31:03–34:19",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=1863",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到31:03，本项讲解到34:19结束。"
+      }
+    ],
+    "42740": [
+      {
+        "title": "探索卡雷什 · 34:19–34:22",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=2059",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到34:19，本项讲解到34:22结束。"
+      }
+    ],
+    "41979": [
+      {
+        "title": "悬赏专员 · 34:22–34:41",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=2062",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到34:22，本项讲解到34:41结束。"
+      }
+    ],
+    "42729": [
+      {
+        "title": "卡雷什的凶萌 · 34:41–35:15",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=2081",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到34:41，本项讲解到35:15结束。"
+      }
+    ],
+    "60890": [
+      {
+        "title": "卡雷什的秘密 · 35:15–35:24",
+        "url": "https://www.bilibili.com/video/BV15k6RByEFv/?t=2115",
+        "credit": "Temporal-Duo · 对应视频分段",
+        "note": "定位到35:15，本项讲解到35:24结束。"
+      }
+    ]
+  }
 }

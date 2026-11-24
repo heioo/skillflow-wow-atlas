@@ -1,37 +1,10 @@
-import {readData, append, externalLink, achievementCard, renderReading} from "./shared.js?v=outland-3";
+import {release, readData, append, externalLink, achievementCard, renderReading} from "./shared.js?v=outland-4";
 
 function descendantIds(id, records, found = new Set()) {
   if (found.has(id)) return found;
   found.add(id);
   for (const child of records[id].children || []) descendantIds(child, records, found);
   return found;
-}
-
-function resourcesFor(id, root, records, routes, guides) {
-  const descendants = descendantIds(id, records);
-  const resources = guides.links.filter(item => item.root === root && item.forIds.some(child => descendants.has(child)));
-  const time = routes[id]?.overviewTime;
-  if (time !== undefined) {
-    const url = root === 40953
-      ? "https://www.bilibili.com/video/BV1jpzXYjEjS/"
-      : "https://www.bilibili.com/video/BV15k6RByEFv/";
-    const stamp = Math.floor(time / 60) + ":" + String(time % 60).padStart(2, "0");
-    const overview = {
-      title: records[id].name + " · " + stamp,
-      url: url + "?t=" + time,
-      credit: root === 40953 ? "疚风是我 · 版本总览" : "Temporal-Duo · 分支讲解",
-      note: "跳转到已归档视频中这一分支的讲解位置。"
-    };
-    const existing = resources.findIndex(resource => resource.url === url);
-    if (existing < 0) resources.unshift(overview);
-    else if (!resources[existing].chapters) resources[existing] = overview;
-  }
-  if (!resources.length) {
-    const title = root === 20501 ? "彼岸归来总览" : "十四项子成就图文攻略";
-    const overview = guides.links.find(item => item.root === root && item.title === title);
-    if (overview) resources.push(overview);
-  }
-  return resources;
 }
 
 function renderRequirements(parent, tree, root, records, routes, images, depth = 0) {
@@ -78,7 +51,7 @@ async function renderAchievement() {
   image.src = "assets/region-" + root.id + ".webp";
   image.hidden = false;
   document.querySelector("#guide-area").textContent = routes[id]?.area || root.expansion;
-  const rootLink = "index.html#achievement-" + root.id;
+  const rootLink = "index.html?v=" + release + "#achievement-" + root.id;
   document.querySelector("#back-link").href = rootLink;
   const crumbs = document.querySelector("#breadcrumbs");
   const home = append(crumbs, "a", root.name);
@@ -107,17 +80,16 @@ async function renderAchievement() {
     append(criteria, "p", record.description);
   }
 
-  const resources = resourcesFor(id, root.id, records, routes, guides);
-  const sources = append(body, "section", "", "guide-sources");
-  append(sources, "h2", "攻略与资料");
-  if (resources.length) renderReading(sources, resources, id);
-  const client = append(sources, "p", "完成清单按客户端 " + atlas.build + " · zhCN 收录。");
-  externalLink(client, "客户端数据", "https://wago.tools/db2/Achievement?build=" + atlas.build);
-  externalLink(sources, "在 Wowhead 核对当前成就", "https://www.wowhead.com/cn/achievement=" + id);
-  if (images[id]) {
-    const credit = append(sources, "p", images[id].subject + " · ");
-    externalLink(credit, "卡片配图来源", images[id].sourcePage);
+  const resources = guides.achievementLinks[String(id)] || [];
+  if (resources.length) {
+    const sources = append(body, "section", "", "guide-sources");
+    append(sources, "h2", "本项攻略");
+    renderReading(sources, resources, id);
   }
+  const reference = append(body, "section", "", "guide-reference");
+  append(reference, "h2", "完成条件参考");
+  append(reference, "p", "完成清单按客户端 " + atlas.build + " · zhCN 收录。");
+  externalLink(reference, "在 Wowhead 核对本项成就", "https://www.wowhead.com/cn/achievement=" + id);
   const footer = append(body, "footer");
   const back = append(footer, "a", "← 返回" + root.name);
   back.href = rootLink;

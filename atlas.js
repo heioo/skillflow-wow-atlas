@@ -1,11 +1,10 @@
-import {readData, append, externalLink, achievementCard, renderReading} from "./shared.js?v=outland-3";
+import {readData, append, externalLink, achievementCard, renderReading} from "./shared.js?v=outland-4";
 
-function renderRoute(body, chapter, resources, source) {
+function renderRoute(body, chapter, resources) {
   const section = append(body, "section", "", "route");
   append(section, "h3", chapter.lead);
   const steps = append(section, "ol");
   chapter.steps.forEach(step => append(steps, "li", step));
-  externalLink(section, chapter.source === "original" ? "《魔兽世界》公众号推荐原文" : "后续攻略推荐（17173 留存）", source);
   const shelf = append(section, "details", "", "shelf");
   append(shelf, "summary", "视频与图文攻略（" + resources.length + "）");
   renderReading(shelf, resources);
@@ -52,7 +51,7 @@ async function renderAtlas() {
       append(body, "p", record.description);
       if (record.reward) append(body, "p", record.reward, "reward");
       externalLink(body, "在 Wowhead 查看", "https://www.wowhead.com/cn/achievement=" + item.id);
-      renderRoute(body, chapter, guides.links.filter(link => link.root === item.id), guides.sources[chapter.source]);
+      renderRoute(body, chapter, guides.links.filter(link => link.root === item.id));
       append(body, "h3", "直属子成就（" + record.children.length + "）");
       const cards = append(body, "div", "", "child-grid");
       for (const child of record.children) achievementCard(cards, child, item.id, records, routes, images);

@@ -1,4 +1,4 @@
-const release = encodeURIComponent(document.documentElement.dataset.release);
+export const release = encodeURIComponent(document.documentElement.dataset.release);
 
 export async function readData(path) {
   const response = await fetch(path + "?v=" + release, {cache: "no-cache"});
@@ -25,7 +25,7 @@ export function externalLink(parent, title, url) {
 export function achievementCard(parent, id, root, records, routes, images) {
   const record = records[id];
   const link = append(parent, "a", "", "child-card");
-  link.href = "achievement.html?id=" + id + "&root=" + root;
+  link.href = "achievement.html?id=" + id + "&root=" + root + "&v=" + release;
   const illustration = images[id];
   if (illustration) {
     const visual = append(link, "div", "", "card-visual " + illustration.kind);
